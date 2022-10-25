@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Número da semana</title>
+    <style>
+        body{
+            background-color: rgb(178, 123, 230);
+            color: aliceblue;
+            font: 20px Arial;
+            text-align: center;
+
+        }
+    </style>
+</head>
+<body>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/200px-Unofficial_JavaScript_logo_2.svg.png" alt="Imagem js">
+    <h1>Faça um Programa que leia um número e exiba o dia correspondente da semana. (1-Domingo, 2- Segunda, etc.), se digitar outro valor deve aparecer valor inválido.</h1>
+
+    <script>
+        number=prompt("Dê-me um número:")
+
+        if (number==1) {
+            document.write("1 equivale ao domingo!")
+        } else if (number==2) { 
+            document.write("2 equivale á segunda-feira!")
+        } else if (number==3) {
+            document.write("3 Equivale á terça-feira!")
+        } else if(number==4){
+            document.write("4 Equivale á quarta-feira!")
+        } else if (number==5) {
+            document.write("5 equivale á quinta-feira!")
+        } else if(number==6){
+            document.write("6 equivale á sexta-feira!")
+        } else if (number==7) {
+            document.write("7 equivale a sábado!")
+        } else{ 
+            document.write("Valor inválido!")
+        }
+    </script>
+</body>
+</html>
